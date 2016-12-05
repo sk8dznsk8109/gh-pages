@@ -1,0 +1,45 @@
+--https://docs.google.com/document/d/1UfnUmqb0vj08GidAPfWUA31Mmr4USCJTMxuv3x3_6bc/mobilebasic
+
+npm install express
+
+node main.js
+
+npm install chico
+
+--Setting git configuration
+git config --global user.name "Eduardo"
+
+git config --global user.email "eduardo.gouveia9090@gmail.com"
+
+git config --global credential.helper wincred
+
+--Getting data from my git repository
+git clone https://github.com/sk8dnsk8/ml-front-end
+
+--Setting where to publish files
+git remote add origin https://github.com/sk8dznsk8/ml-front-end.git
+
+--Publishing files on master branch
+git push -u origin master
+
+--Getting data from my ML Chico repository (http://chico.mercadolibre.com/)
+git clone https://github.com/mercadolibre/chico.git
+
+cd chico
+
+npm install
+
+npm install gulp -g
+
+--Did not install successfully
+--https://github.com/npm/npm/issues/7528
+--http://stackoverflow.com/questions/22325031/npm-please-try-using-this-command-again-as-root-administrator
+npm install browser-sync -g
+
+npm install --save-dev gulp gulp-livereload gulp-notify gulp-nodemon gulp-minify-html gulp-minify-css gulp-uglify gulp-concat
+
+npm install gulp-sass --save-dev
+
+npm install --save-dev gulp-autoprefixer
+
+npm install gulp-plumber --save-dev
